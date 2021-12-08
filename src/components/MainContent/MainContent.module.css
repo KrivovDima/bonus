@@ -1,0 +1,5 @@
+.wrapper {
+    min-height: 148px;
+    background: linear-gradient(180deg, #D2333E 0%, #F54B55 100%);
+    position: relative;
+}

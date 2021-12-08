@@ -1,0 +1,58 @@
+.wrapper {
+    width: 335px;
+    position: absolute;
+    top: -58px;
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.allBonus {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.burnBonuses {
+    color: #979797;
+    font-size: 16px;
+}
+
+.countBurn {
+    margin-left: 8px;
+    display: inline-block;
+    padding-left: 21px;
+    position: relative;
+}
+
+.countBurn::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 13px;
+    height: 17px;
+    left: 0;
+    background-image: url("../../image/Bonus/fire-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.onwardsBtn {
+    display: inline-block;
+    margin-top: 19px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #D4343F;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("../../image/Bonus/onwards-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
